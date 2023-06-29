@@ -7,3 +7,4 @@ edition = "2021"
 crate-type = ["rlib", "dylib"]
 
 [dependencies]
+minifb = "0.24"
