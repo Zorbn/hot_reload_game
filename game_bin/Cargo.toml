@@ -1,0 +1,12 @@
+[package]
+name = "game_bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+minifb = "0.24"
+game_lib = { path = "../game_lib" }
+dynamic_reload = { version = "0.10", optional = true }
+
+[features]
+dynamic_reload = ["dep:dynamic_reload"]
